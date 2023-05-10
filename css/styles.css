@@ -10,6 +10,9 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+ 
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -42,7 +45,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 142, 148, 242;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -73,10 +76,10 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
-  --bs-link-hover-color: #974a2d;
+  --bs-link-color: #DAB6FC;
+  --bs-link-hover-color: #bd7df9;
   --bs-code-color: #d63384;
-  --bs-highlight-bg: #fff3cd;
+  --bs-highlight-bg: #fbd5e7;
 }
 
 *,
@@ -2847,15 +2850,15 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #000;
-  --bs-btn-bg: #bd5d38;
-  --bs-btn-border-color: #bd5d38;
+  --bs-btn-bg: #8E95F2;
+  --bs-btn-border-color: #7a82ef;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #c77556;
-  --bs-btn-hover-border-color: #c46d4c;
+  --bs-btn-hover-bg: #bd7df9;
+  --bs-btn-hover-border-color: #bd7df9;
   --bs-btn-focus-shadow-rgb: 161, 79, 48;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #ca7d60;
-  --bs-btn-active-border-color: #c46d4c;
+  --bs-btn-active-bg: #bd7df9;
+  --bs-btn-active-border-color: #bd7df9;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
   --bs-btn-disabled-bg: #bd5d38;
@@ -10937,7 +10940,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #bd7df9;
 }
 
 .dev-icons {
